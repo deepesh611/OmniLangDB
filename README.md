@@ -80,6 +80,8 @@ We welcome contributions from the community. If you'd like to contribute, please
 - Commit your changes (git commit -m 'Add some feature').
 - Push to the branch (git push origin feature-branch).
 - Open a pull request.
+  
+> **NOTE :** @collaborators, make sure that all that changes that you make are in the `editor` branch and not in the `main`.
 
 <div style="border: 2px solid red; padding: 10px; border-radius: 5px; background-color: #ffe6e6; color: red;">
   <strong>⚠️ Danger:</strong> Be aware that messing with the folder structure could cause serious issues to the website.
