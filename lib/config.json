@@ -1,0 +1,15 @@
+{
+    "mysql": {
+      "host": "your_mysql_host",
+      "user": "your_mysql_user",
+      "password": "your_mysql_password",
+      "database": "your_mysql_database"
+    },
+    "mariadb": {
+      "host": "your_mariadb_host",
+      "user": "your_mariadb_user",
+      "password": "your_mariadb_password",
+      "database": "your_mariadb_database"
+    }
+  }
+  
