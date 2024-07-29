@@ -16,12 +16,12 @@ const config = {
   url: 'https://deepesh611.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/OmniLangDB/',
+  baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'deepesh611',   // Usually your GitHub org/user name.
-  projectName: 'OmniLangDB',        // Usually your repo name.
+  projectName: 'deepesh611.github.io/OmniLangDB',        // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
