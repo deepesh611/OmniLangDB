@@ -1,5 +1,5 @@
 database:
-  host: your_host
-  user: your_user
+  host: localhost
+  user: root
   password: your_password
-  dbname: your_dbname
+  dbname: mydb

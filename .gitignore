@@ -10,6 +10,7 @@ yarn.lock
 .docusaurus
 .cache-loader
 
+
 # Misc
 .DS_Store
 .env.local
@@ -18,5 +19,6 @@ yarn.lock
 .env.production.local
 
 npm-debug.log*
+lib/config.yaml
 yarn-debug.log*
 yarn-error.log*
