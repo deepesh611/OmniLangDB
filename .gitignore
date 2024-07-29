@@ -19,6 +19,6 @@ yarn.lock
 .env.production.local
 
 npm-debug.log*
-lib/config.yaml
 yarn-debug.log*
 yarn-error.log*
+config.json
