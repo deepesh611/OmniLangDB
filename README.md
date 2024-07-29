@@ -36,25 +36,30 @@ Each language section contains example scripts and usage guides. Here are some q
 ## Project Structure 📁
 ```bash
 OmniLangDB/
-├── C/
-│   ├── intro.md
-│   └── examples/
-├── C++/
-│   ├── intro.md
-│   └── examples/
-├── Java/
-│   ├── intro.md
-│   └── examples/
-├── JavaScript/
-│   ├── intro.md
-│   └── examples/
-├── Python/
-│   ├── intro.md
-│   └── examples/
-├── Shell/
-│   ├── intro.md
-│   └── examples/
-└── README.md
+├── LICENCE
+├── .gitignore
+├── README.md
+├── docusaurus.config.js
+├── sidebar.js
+├── config.json
+├── lib
+|     ├── Python.py
+|     ├── Java.java
+|     ├── C.c
+|     ├── C++.cpp
+|     ├── JavaScript.js
+|     └── Shell.sh
+├── src
+|     ├── components
+|     ├── pages
+|     └── css
+├── docs
+      ├── 01-intro.md
+      ├── 02-Getting Started
+|     └── Documentation
+└── static
+      └── Images, Icons, etc.
+
 ```
 
 ## Contributing 🤝
