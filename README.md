@@ -8,11 +8,11 @@ OmniLangDB is a versatile repository containing functions and code snippets for 
 
 Ensure you have the required software and libraries installed for the language(s) you plan to use. Here is a list of libraries/modules that you will need:
 
-- Python: Python 3.8.x or higher
-- Java: JDK 8 or higher
-- C++: C++11 or higher
-- JavaScript: Node.js
-- Shell: Bash
+- **Python:** `sqlite3`, `psycopg2`, `mysql-connector-python`
+- **Java:** JDBC driver for the specific database
+- **C++:** MySQL Connector/C++, SQLite library
+- **JavaScript:** `node-mysql`, `pg`, `sqlite3`
+- **Shell:** `mysql-client`, `psql`
 
 ### Installation 💻
 
@@ -71,7 +71,7 @@ OmniLangDB/
 ```
 
 ## Contributing 🤝
-We welcome contributions from the community. If you'd like to contribute, please follow the contribution guidelines.
+We welcome contributions from the community. If you'd like to contribute, please follow the contribution guidelines. You can refer the [Docasuras](https://docusaurus.io/docs) documentations for the same
 
 ## Contribution Guidelines
 - Create an `issue` first. Once you are assigned to the issue, you can proceed with the next steps.
@@ -80,6 +80,12 @@ We welcome contributions from the community. If you'd like to contribute, please
 - Commit your changes (git commit -m 'Add some feature').
 - Push to the branch (git push origin feature-branch).
 - Open a pull request.
+
+<div style="border: 2px solid red; padding: 10px; border-radius: 5px; background-color: #ffe6e6; color: red;">
+  <strong>⚠️ Danger:</strong> Be aware that messing with the folder structure could cause serious issues to the website.
+</div>
+
+
 
 ## License 📄
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
