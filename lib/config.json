@@ -1,0 +1,15 @@
+{
+    "mysql": {
+      "host": "localhost",
+      "user": "root",
+      "password": "",
+      "database": "mydb"
+    },
+    "mariadb": {
+      "host": "localhost",
+      "user": "root",
+      "password": "",
+      "database": "mydb"
+    }
+  }
+  
