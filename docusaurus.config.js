@@ -36,16 +36,20 @@ const config = {
 
   presets: [
     [
+      '@docusaurus/preset-classic',
+      {
+        docs: {
+          // Other docs options...
+          onBrokenLinks: 'ignore', // Options: 'throw', 'warn', 'ignore'
+        },
+        // Other options...
+      },
+
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
           sidebarPath: './sidebars.js',
-          // Please change this to your repo.
-        },
-
-        blog: {
-          showReadingTime: true,
           // Please change this to your repo.
         },
         theme: {
@@ -73,10 +77,6 @@ const config = {
             position: 'left',
             label: 'Tutorial',
           },
-          {
-            to: '/blog', 
-            label: 'Blog', 
-            position: 'left'},
           {
             href: 'https://github.com/deepesh611/OmniLangDB',
             label: 'GitHub',
@@ -116,10 +116,6 @@ const config = {
               {
                 label: 'Getting Started',
                 to: '/docs/Getting%20Started%20🚀/intro'
-              },
-              {
-                label: 'Contributors',
-                to: '/contributors',
               },
             ],
           },
