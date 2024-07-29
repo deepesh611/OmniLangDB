@@ -22,15 +22,14 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '18'  # Specify the Node.js version you want to use
-          cache: yarn         # Use yarn cache to speed up installations
 
       # Install dependencies
       - name: Install dependencies
-        run: yarn install --frozen-lockfile
+        run: npm install
 
       # Build the Docusaurus website
       - name: Build website
-        run: yarn build
+        run: npm run build
 
       # Upload the build artifact
       - name: Upload Build Artifact
