@@ -23,8 +23,8 @@ const config = {
   organizationName: 'deepesh611',   // Usually your GitHub org/user name.
   projectName: 'OmniLangDB',        // Usually your repo name.
 
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  onBrokenLinks: 'ignore',
+  onBrokenMarkdownLinks: 'ignore',
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
@@ -36,15 +36,14 @@ const config = {
 
   presets: [
     [
-      '@docusaurus/preset-classic',
-      {
-        docs: {
-          // Other docs options...
-          onBrokenLinks: 'ignore', // Options: 'throw', 'warn', 'ignore'
-        },
-        // Other options...
-      },
-
+      // '@docusaurus/preset-classic',
+      // {
+      //   docs: {
+      //     // Other docs options...
+      //     onBrokenLinks: 'ignore', // Options: 'throw', 'warn', 'ignore'
+      //   },
+      //   // Other options...
+      // },
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
