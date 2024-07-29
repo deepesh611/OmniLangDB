@@ -92,25 +92,9 @@ const config = {
             title: 'Documentation',
             items: [
               {
-                label: 'C++',
-                to: '/docs/C++/intro',
-              },
-              {
-                label: 'Shell',
-                to: '/docs/Shell/intro',
-              },
-              {
-                label: 'Java',
-                to: '/docs/Java/intro',
-              },
-              {
                 label: 'Python',
-                to: '/docs/Python/intro',
+                to: 'docs/Documentation/Python/intro',
               },
-              {
-                label: "JavaScript",
-                to: '/docs/JavaScript/intro',
-              }
             ],
           },
           {
@@ -118,15 +102,7 @@ const config = {
             items: [
               {
                 label: 'GitHub',
-                href: 'https://github.com/deepesh611/omnilangdb',
-              }, 
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                href: 'https://github.com/deepesh611/OmniLangDB/discussions',
               },
             ],
           },
@@ -135,7 +111,11 @@ const config = {
             items: [
               {
                 label: 'Docs',
-                to: '/docs',
+                to: '/docs/intro',
+              },
+              {
+                label: 'Getting Started',
+                to: '/docs/Getting%20Started%20🚀/intro'
               },
               {
                 label: 'Contributors',
