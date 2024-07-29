@@ -101,8 +101,8 @@ For questions or support, feel free to open an issue on [GitHub](https://github.
 ## Contributors 🌟
 Thank you to all the contributors who have helped make this project better!
 
-<a href="https://github.com/deepesh611/omnilangdb/graphs/contributors">
-  <img width="90%" src="https://contrib.rocks/image?repo=deepesh611/omnilangdb" />
+<a href="https://github.com/deepesh611/OmniLangDB/graphs/contributors">
+  <img width="90%" src="https://contrib.rocks/image?repo=deepesh611/OmniLangDB" />
 </a>
 
 ## Acknowledgements 🙏
