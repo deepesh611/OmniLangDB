@@ -1,7 +1,7 @@
 ---
 id: intro
 title: First Things First
-sidebar_label: First Things First
+sidebar_label: Pre-requisites
 sidebar_position: 1
 ---
 
@@ -16,21 +16,74 @@ Ensure you have the required software and libraries installed for the language(s
 
 <Tabs>  
   <TabItem value="python" label="Python">
-    ```bash
-    pip install mysql.connector-python
+    ```python
+    # For SQLite
+    sqlite3                   
+
+    # For MySQL
+    mysql-connector-python    
+
+    # For PostgreSQL
+    psycopg2                  
     ```
   </TabItem> 
+
+  <TabItem value='java' label='Java'>
+    ```java
+    // Driver for specific database
+    JDBC 
+    ```
+  </TabItem>
+
+  <TabItem value='js' label='JavaScript'>
+    ```javascript
+    // For SQLite
+    sqlite3
+
+    // For MySQL
+    mysql
+
+    // For PostgreSQL
+    pg
+    ```
+  </TabItem>
+
+  <TabItem value='shell' label="Shell">
+    ```shell
+    # For SQLite
+    sqlite3
+
+    # For MySQL
+    mysql
+
+    # For PostgreSQL
+    psql
+    ``` 
+  </TabItem>
+
+  <TabItem value='cpp' label='C++'>
+    ```cpp
+    // For SQLite
+    sqlite3.h
+
+    // For MySQL
+    mysql.h
+
+    // For PostgreSQL
+    libpq-fe.h
+    ```
+  </TabItem>
 </Tabs>
 
 
 ## Usage 🛠️
 Each language section in the sidebar contains example scripts and usage guides. Here are some quick links to get you started:
 
-- [C++](docs/c++/intro) 💻
-- [Java](docs/java/intro) ☕
-- [Shell](docs/shell/intro) 🐚
-- [Python](docs/Documentation/Python/01-intro.md) 🐍
-- [JavaScript](docs/javascript/intro) 🌟
+- [C++](#) 💻
+- [Java](#) ☕
+- [Shell](#) 🐚
+- [Python](../Documentation/01-Python/01-intro.md) 🐍
+- [JavaScript](#) 🌟
 
 
 

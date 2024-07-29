@@ -1,5 +1,5 @@
 ---
-sidebar_label: About 
+sidebar_label: About Python
 sidebar_position: 1
 ---
 
@@ -21,5 +21,5 @@ PostgreSQL is a powerful, open-source relational database system known for its r
 ## MongoDB
 MongoDB is a NoSQL database that stores data in flexible, JSON-like documents. It is designed for scalability and high performance. Python can connect to MongoDB using the pymongo library, which provides comprehensive support for interacting with MongoDB databases.
 
-## Conclusion
+
 Python's ability to connect to and interact with a variety of database systems makes it an incredibly flexible tool for developers. Whether you are working with relational databases like SQLite, MySQL, and PostgreSQL, or NoSQL databases like MongoDB, Python provides the libraries and tools necessary to manage and manipulate your data effectively.
