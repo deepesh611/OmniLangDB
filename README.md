@@ -67,6 +67,8 @@ We welcome contributions from the community. If you'd like to contribute, please
 - Commit your changes (git commit -m 'Add some feature').
 - Push to the branch (git push origin feature-branch).
 - Open a pull request.
+  
+> **NOTE :** @collaborators, make sure that all that changes that you make are in the `editor` branch and not in the `main`.
 
 ## License 📄
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
