@@ -8,7 +8,7 @@ OmniLangDB is a versatile repository containing functions and code snippets for 
 
 Ensure you have the required software and libraries installed for the language(s) you plan to use. Here is a list of libraries/modules that you will need:
 
-- Python: `pip install -r requirements.txt`
+- Python: Python 3.8.x or higher
 - Java: JDK 8 or higher
 - C++: C++11 or higher
 - JavaScript: Node.js
