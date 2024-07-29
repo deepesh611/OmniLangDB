@@ -43,20 +43,28 @@ OmniLangDB/
 ├── sidebar.js
 ├── config.json
 ├── lib
-|     ├── Python.py
-|     ├── Java.java
-|     ├── C.c
-|     ├── C++.cpp
-|     ├── JavaScript.js
-|     └── Shell.sh
+      ├── Python.py
+      ├── Java.java
+      ├── C.c
+      ├── C++.cpp
+      ├── JavaScript.js
+      └── Shell.sh
 ├── src
-|     ├── components
-|     ├── pages
-|     └── css
+      ├── components
+      ├── pages
+      └── css
 ├── docs
       ├── 01-intro.md
       ├── 02-Getting Started
-|     └── Documentation
+                  ├── Databases
+                        ├── SQL-Database.md
+                        └── NoSQL-Database.md      
+                  ├── 01-intro.mdx
+                  └── 02-issue.mdx
+      └── Documentation
+                  ├── Python
+                  ├── C++
+                  └── Shell
 └── static
       └── Images, Icons, etc.
 
