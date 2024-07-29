@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Introduction 🚀
+# Introduction ℹ️
 
 Welcome to **OmniLangDB**! This website offers comprehensive documentation and resources for connecting to and working with SQL databases in multiple programming languages and provides you with the tools you need to streamline your database interactions.
 
