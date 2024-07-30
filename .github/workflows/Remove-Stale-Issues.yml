@@ -1,0 +1,23 @@
+name: Close Stale Issues and PRs
+
+on:
+  schedule:
+    # Run at midnight every day
+    - cron: "0 0 * * *"
+
+jobs:
+  stale:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/stale@v3
+      with:
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        stale-issue-message: '⚠️ This issue has been automatically marked as stale due to inactivity. If it is still relevant, please comment below to keep it open. Otherwise, it will be closed in 7 days. Thank you for your contributions! 🙌'
+        stale-pr-message: '⚠️ This pull request has been automatically marked as stale due to inactivity. If it is still relevant, please comment below to keep it open. Otherwise, it will be closed in 7 days. Thank you for your contributions! 🚀'
+        days-before-stale: 60 # Number of days of inactivity before marking an issue or PR as stale
+        days-before-close: 7  # Number of days to wait to close stale issues or PRs
+        stale-issue-label: 'stale'
+        exempt-issue-labels: 'pinned,security'
+        stale-pr-label: 'stale'
+        exempt-pr-labels: 'pinned,security'
