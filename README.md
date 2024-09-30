@@ -96,7 +96,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 For questions or support, feel free to open an issue on [GitHub](https://github.com/deepesh611/OmniLangDB/issues) or reach out to us via our community channels.
 
 ## Community Links
-- [GitHub](https://github.com/deepesh611/OmniLangDB/discussions)
+- [GitHub Discussions](https://github.com/deepesh611/OmniLangDB/discussions)
 
 ## Contributors 🌟
 Thank you to all the contributors who have helped make this project better!
