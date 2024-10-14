@@ -1,9 +1,9 @@
 ---
-sidebar_position: 1
-sidebar_label: MySQL
+sidebar_position: 3
+sidebar_label: PostgreSQL
 ---
 
-# Snippets for MySQL
+# Snippets for PostgreSQL
 
 Let's begin with a simple tutorial to connect and interact with MySQL using Python.
 
@@ -15,7 +15,7 @@ The `config.json` file stores the credentials for your MySQL database. Typically
 {
     "mysql": {
       "host": "localhost",
-      "user": "root",
+      "user": "postgres",
       "password": "",
       "database": "mydb"
     }
@@ -42,7 +42,8 @@ First, import the necessary libraries:
 
 ```python
 import json
-import mysql.connector as mys
+import psycopg2
+from psycopg2 import Error as PostgreSQLError
 ```
 
 2. Define Helper Functions
@@ -59,27 +60,24 @@ def load_config(filename='config.json'):
 #### Connect to MySQL:
 
 ```python
-# Connect to MySQL database
-def connect_mysql(config):
+def connect_postgresql(config):
     try:
-        connection = mys.connect(
+        connection = psycopg2.connect(
             host=config['host'],
             user=config['user'],
             password=config['password'],
             database=config['database']
         )
-        if connection.is_connected():
-            print("Connected to MySQL")
-            return connection
-    except mys.Error as e:
-        print(f"Error connecting to MySQL: {e}")
+        print("Connected to PostgreSQL")
+        return connection
+    except PostgreSQLError as e:
+        print(f"Error connecting to PostgreSQL: {e}")
         return None
 ```
 
 #### Execute SQL Query:
 
 ```python
-# Execute SQL query from query.sql
 def execute_query(connection, query_file='query.sql'):
     with open(query_file, 'r') as file:
         query = file.read()
@@ -89,7 +87,7 @@ def execute_query(connection, query_file='query.sql'):
         cursor.execute(query)
         connection.commit()
         print("Query executed successfully")
-    except mys.Error as e:
+    except (PostgreSQLError) as e:
         print(f"Error executing query: {e}")
 ```
 
@@ -98,16 +96,15 @@ Now, define your main function that integrates everything together:
 
 ```python
 def main():
-    # Load the database configuration
-    config = load_config()           
+    config = load_config()           # Load database configuration       
 
-    # Connect to the MySQL database
-    mysql_connection = connect_mysql(config['mysql'])
+    # Connect to PostgreSQL
+    postgresql_connection = connect_postgresql(config['postgresql'])
 
-    # Execute the SQL query on MySQL
-    if mysql_connection:
-        execute_query(mysql_connection)
-        mysql_connection.close()
+    # Execute query on PostgreSQL
+    if postgresql_connection:
+        execute_query(postgresql_connection)
+        postgresql_connection.close()
 
 if __name__ == "__main__":
     main()
@@ -127,4 +124,4 @@ python lib.py
 - Read and execute the SQL query from `query.sql`.
 
 
-You can get the Complete file from [here](https://github.com/deepesh611/OmniLangDB/blob/main/lib/Python_MySQL.py)
+You can get the Complete file from [here](https://github.com/deepesh611/OmniLangDB/blob/main/lib/Python_PostgreSQL.py)

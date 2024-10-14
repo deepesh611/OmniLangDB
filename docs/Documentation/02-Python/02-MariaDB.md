@@ -28,7 +28,7 @@ You can store your SQL queries in a separate file for better organization. Here'
 ```sql
 -- Demo query: Creating a sample table
 CREATE TABLE IF NOT EXISTS sample_table (
-id INT AUTO_INCREMENT PRIMARY KEY,
+id INT PRIMARY KEY,
 name VARCHAR(100) NOT NULL,
 created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );

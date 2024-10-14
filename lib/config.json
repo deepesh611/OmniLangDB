@@ -5,9 +5,17 @@
       "password": "",
       "database": "mydb"
     },
+
     "mariadb": {
       "host": "localhost",
       "user": "root",
+      "password": "",
+      "database": "mydb"
+    },
+
+    "postgresql": {
+      "host": "localhost",
+      "user": "postgres",
       "password": "",
       "database": "mydb"
     }
